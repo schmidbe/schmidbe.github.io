@@ -1,0 +1,76 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+	width: 100%;
+	display: block;
+}
+
+body {
+	background-color: rgb(250, 250, 250); /* Not totally white. */
+	color: _______;  /* Not totally black. */
+	line-height: 140%; 	/* A little extra leading. */
+	font-family: serif;
+}
+
+.titleBar {
+    background-color: rgb(153, 153, 168);
+}
+
+h1 {
+	color: rgb(250, 250, 250); /* Same as body background. */
+	font-size: 25pt;
+	padding: 0.5em 0.5em 0.1em; /* You want three values. */
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/* You’ll need to add a span element to your HTML. */
+h1 span { 	
+	font-family: serif;
+	font-style: _______;
+	font-weight: normal;
+	text-transform: lowercase;
+}
+
+h2 {
+	background-color: rgb(153, 153, 168);
+	color: rgb(250, 250, 250);
+	font-size: 20pt;
+	padding: 0.5em 0.5em;
+	font-family: _______;
+	font-weight: bold;
+}
+
+h3 {
+	margin: 0.5em 0.5em 0.1em; /*Three values again. You got the idea.*/
+	padding-top: 0.5em;
+	font-size: 15pt;
+	color: rgb(255, 0, 0);
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
+	border-top: ____ ____ ____;
+}
+
+h4 {
+	font-weight: _______;
+}
+
+p.description {
+	font-style: italic;
+}
+
+p.price {
+	color: rgb(255, 0, 0);
+}
+
+ul {
+	margin: ____ ____ ____;
+}
+
+li { 
+	margin: ____ ____;
+	list-style-type: ____;
+}
